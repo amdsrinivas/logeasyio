@@ -1,0 +1,33 @@
+.hosts-view {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.hosts-view .grid-wrapper {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.hosts-view .full-size {
+  width: 100%;
+  height: 100%;
+}
+
+.hosts-view #editor-layout {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hosts-view #editor {
+  padding: var(--lumo-space-l);
+  flex-grow: 1;
+}
+
+.hosts-view #button-layout {
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: var(--lumo-contrast-5pct);
+  padding: var(--lumo-space-s) var(--lumo-space-l);
+}

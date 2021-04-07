@@ -1,0 +1,3 @@
+LogEasy.io is a platform-agnostic log management service designed with privacy as the main caveat. It provides services for ingesting and managing logs from multiple hosts and directory locations. The data ingested from a host is stored and managed in a database owned by the host owner itself thereby ensuring complete control over the data.
+
+Imagine a set of applications working on various environments namely development, quality assurance and production. LogEasy.io provides a self-service to register the logs in the various locations spread across the environments. Post ingestion, it provides a user interface to access these logs from a single location. The access control of the logs from different environments can be controlled via authentication and authorization.

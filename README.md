@@ -1,2 +1,3 @@
-# logeasyio
-Splunk log management clone
+# LogEasy.io
+A privacy centric log management service
+

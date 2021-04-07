@@ -1,0 +1,4 @@
+1. **Backend** : Backend provides an API to register the hosts, loggers and aggregators. It schedules the jobs to ingest the logs from registered loggers.
+2. **Aggregator** : Aggregator is a Java service that runs the jobs to ingest the data. This will be installed on the hosts that are registered via self-service. All logs from a host are ingested using the aggregator mapped to that host.
+3. **Scheduler** : Scheduler is currently part of the backend which triggers the aggregator for each logger registered to the backend.
+4. **User Interface** : A browser based application that connects to the logs ingested Database to provide a single point of access to all logs.
